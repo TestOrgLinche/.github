@@ -1,0 +1,8 @@
+name: Platform context file
+description: Context file controlling activation of GitOps in this org.
+
+resource: repository
+
+configuration:
+  platformContext:
+    active: true
